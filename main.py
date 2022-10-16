@@ -15,4 +15,4 @@ async def read_item():
     return fake_items_db
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=5000, log_level="info")
+    uvicorn.run("main:app", port=80, log_level="info")
